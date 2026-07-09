@@ -9,10 +9,9 @@ built as part of Summer of Code.
 pip install -r requirements.txt
 ```
 
-Note: `gymnasium[atari]` requires accepting the Atari ROM license. If prompted, run:
-```bash
-pip install gymnasium[accept-rom-license]
-```
+Note: as of `ale-py>=0.9`, ROMs are bundled directly with the package — no separate
+license-acceptance step needed. (Older tutorials mention `pip install gymnasium[accept-rom-license]`;
+that extra no longer exists and can be skipped.)
 
 ## Project structure
 
